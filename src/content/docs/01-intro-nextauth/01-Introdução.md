@@ -1,26 +1,9 @@
 ---
-title: O que é o NextAuth
-description: Boas vindas ao workshop de Typescript no React
+title: Por que NextAuth?
 ---
 
-Vamos criar um projeto **JS** para posteriormente transformá-lo em **TS**.
+Provavelmente a maioria dos exemplos de autenticação presentes na Web usando apps Javascript usam serviços de autenticação de terceiros. Lembram quando a febre era usar a autenticação do Firebase? Depois do Auth0? Agora, a moda parece ser o Clerk. 
 
-Podemos rodar o comando `npm create vite@latest` e seguir os passos. Importante selecionar um projeto *react* com ***javascript***.
+Todas essas plataformas são ótimas e facilitam o processo de prototipação e de autenticação. O grande problema aqui chama-se *[vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in)*. Recentemente uma das principais plataformas (Auth0) [aumentou o preço em 300%](https://www.reddit.com/r/webdev/comments/18d6hcd/auth0_increases_price_by_300/#:~:text=Auth0%20just%20increased%20the%20price,using%20for%20user%20identity%2Fauth%3F). E quando sua aplicação já é grande suficiente, o custo em migrar seus usuários para outra estratégia pode ser muito alto e você acaba "refém" da sua escolha inicial. 
 
-Se você ainda não usou o *vite* antes, essa é uma boa oportunidade para aprendê-lo.
-
-### Migrando para TS
-
-Vamos instalar agora as bibliotecas necessárias para migrarmos nossa aplicação para TS.
-
-```bash
-npm install typescript @types/react @types/react-dom
-```
-
-Feito isso, vamos iniciar o projeto com o cli do *typescript*
-
-```bash
-npx tsc --init
-```
-
-Se você perceber, um arquivo foi criado: o famoso `tsconfig.json`. Ele parece indecifrável no começo, mas no fim do dia é muito mais comentário do que código.
+Com uma biblioteca como a **NextAuth** você é dono do seu sistema de autenticação. Você é dono dos dados (que ficarão na sua base de dados). E o melhor de tudo - não pagará nenhum centavo se sua aplicação aumentar significativamente o número de usuários. 

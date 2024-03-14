@@ -1,6 +1,6 @@
 ---
 title: Boas Vindas
-description: Boas vindas ao workshop de Typescript no React
+description: Boas vindas ao workshop de Next Auth (Auth.js)
 ---
 
 Boas vindas ao nosso Workshop de TS no React. Espero que você goste dessa jornada.

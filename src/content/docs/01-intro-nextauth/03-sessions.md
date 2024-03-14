@@ -1,12 +1,12 @@
 ---
-title: Sessions
+title: Sessões (Sessions)
 ---
 
 ### O que são sessões?
 
-Sessões é a forma de nossa aplicação _saber que estamos logados_. Se não houvesse sessão, a cada página que visitássemos precisaríamos fazer o login novamente. 😓
+Sessões são a forma de nossa aplicação _saber que estamos logados_. Se não houvesse uma sessão em nosso app, a cada página que visitássemos precisaríamos fazer o login novamente. 😓
 
-No auth.js, podemos usar duas estratégias de sessões: **JWT** ou **Database**.
+No Auth.js, podemos usar duas estratégias de sessões: **JWT** ou **Database**.
 
 Isso significa que as informações de que há um usuário logado podem ser salvas tanto em uma base de dados centralizada (database), ou apenas no browser do usuário, em um cookie que usa o protocolo JWT (Json Web Token).
 

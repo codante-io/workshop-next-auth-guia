@@ -18,6 +18,8 @@ E aqui o exemplo mais recorrente sobre esse padrão é um fio com plug de tomada
 
 Na verdade não precisamos *necessariamente* de adapters no *auth.js*. Mas *provavelmente* iremos precisar deles. Isso porque provavelmente precisaremos persistir os dados de autenticação em algum lugar. 
 
+Quando eu digo que não precisamos necessariamente é porque é possível fazer autenticação (com GitHub, por exemplo) sem persistir nenhum dado em nenhuma base de dados. Mas isso é muito limitado para uma aplicação no mundo real. 
+
 Então, em linhas simples, quando falamos em adapters, estamos falando em **conectar o Next** com uma **base de dados**. 
 
 ![alt text](../../../assets/images/image.png)
