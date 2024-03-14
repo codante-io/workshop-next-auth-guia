@@ -17,7 +17,7 @@ export default defineConfig({
       title: 'Next Auth',
       editLink: {
         baseUrl:
-          'https://github.com/codante-io/workshop-ts-no-react-guia/edit/main/',
+          'https://github.com/codante-io/workshop-next-auth-guia/edit/main/',
       },
       social: {
         github: 'https://github.com/robertotcestari',
@@ -40,11 +40,29 @@ export default defineConfig({
             directory: '01-intro-nextauth',
           },
         },
+        {
+          label: '1. Setup do NextAuth na Aplicação',
+          autogenerate: {
+            directory: '02-setup-next-auth',
+          },
+        },
 
         {
-          label: 'Login com Credenciais',
+          label: '2. Login com Credenciais',
           autogenerate: {
-            directory: '02-login-com-credenciais',
+            directory: '03-login-com-credenciais',
+          },
+        },
+        {
+          label: '3. Login com Github',
+          autogenerate: {
+            directory: '04-login-com-github',
+          },
+        },
+        {
+          label: '4. Login com Magic Link',
+          autogenerate: {
+            directory: '05-login-com-magic-link',
           },
         },
       ],
