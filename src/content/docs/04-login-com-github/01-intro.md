@@ -1,5 +1,5 @@
 ---
-title: Entendendo o fluxo de Login
+title: O
 ---
 
 A partir de agora, para todos os exemplos subsequentes, vamos utilizar nosso **gerador de frases motivacionais**. Ah, ok, tudo bem... eu sei que o exemplo não é dos mais criativos, mas ele é um bom ponto de partida para analisarmos vários conceitos interessantes de TS em uma aplicação react.
