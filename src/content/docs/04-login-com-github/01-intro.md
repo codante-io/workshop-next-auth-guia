@@ -1,25 +1,9 @@
 ---
-title: O
+title: Introdução
 ---
 
-A partir de agora, para todos os exemplos subsequentes, vamos utilizar nosso **gerador de frases motivacionais**. Ah, ok, tudo bem... eu sei que o exemplo não é dos mais criativos, mas ele é um bom ponto de partida para analisarmos vários conceitos interessantes de TS em uma aplicação react.
+Uma das formas mais populares de autenticação em aplicações web é a utilização de serviços terceiros confiáveis com o protocolo OAuth. Permitir que o usuário faça login usando o Github, Google, Apple ou Facebook é uma forma de adicionar uma camada extra de segurança à sua aplicação uma vez que não precisará lidar com senhas. 
 
-Você pode encontrar o repositório com o ponto de partida [aqui nesse link](https://github.com/robertotcestari/codante-ts-no-react-exercicio):
-
-- [https://github.com/robertotcestari/codante-ts-no-react-exercicio](https://github.com/robertotcestari/codante-ts-no-react-exercicio)
-
-Faça o clone e acompanhe o workshop!
-
-## A aplicação
-
-A nossa aplicação, **que já é Typescript**, é bastante simples e é composta de:
-
-- Header - com o título do app + um botão para gerar frases motivacionais
-- Card com a frase motivacional gerada.
-- Funcionalidade de trocar a cor de fundo quando uma nova frase é gerada.
+Vamos ver como é fácil fazer integração do Github para fazer login em nossa aplicação. 
 
 
-### Dados usados na aplicação
-
-- Os dados de **cores** e **frases** estão na pasta `/data`
-- As funções de *fetch* tanto das cores aleatórias como frases aleatórias estão no arquivo `/src/lib/services.ts`

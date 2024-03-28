@@ -65,6 +65,18 @@ export default defineConfig({
             directory: '05-login-com-magic-link',
           },
         },
+        {
+          label: '5. Dashboard e Logout',
+          autogenerate: {
+            directory: '06-dashboard-e-logout',
+          },
+        },
+        {
+          label: '6. Callbacks: mais dados na sessão',
+          autogenerate: {
+            directory: '07-mais-dados-na-sessao-callbacks',
+          },
+        },
       ],
     }),
     tailwind({ applyBaseStyles: false }),
