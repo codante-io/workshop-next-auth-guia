@@ -2,14 +2,52 @@
 title: Conteúdo do Workshop
 ---
 
-Vamos começar? Antes de mais nada, um overview do que iremos tratar no Workshop de hoje. Vamos em todo o workshop - salvo em casos específicos - utilizar uma única aplicação que possuirá **várias formas de autenticação utilizando a biblioteca Auth.js (NextAuth)**.
+Vamos começar? Antes de mais nada, um overview do que iremos tratar no Workshop de hoje. Vamos em todo o workshop utilizar uma única aplicação que possuirá **várias formas de autenticação utilizando a biblioteca Auth.js (NextAuth)**.
 
 ## O que vamos aprender hoje?
 
-Os principais tópicos que iremos ver são
+Os principais tópicos que iremos ver são:
 
-#### 01. Lala
+#### 01. Intro ao NextAuth.js
 
-- Item 1
-- Item 2
-- Item 3
+- A nova versão 5 (auth.js)
+- O que são sessões
+- O que são providers
+- O que são adapters
+- O que são callbacks
+- O que são eventos
+
+
+#### 02. Setup do NextAuth.js no projeto
+
+- Instalando o NextAuth
+- Instalando a base de dados (Prisma)
+- Configurando o NextAuth
+- Entendendo o fluxo de login
+- Login nativo / simples com credenciais 
+
+#### 05. Login com credenciais Server e Client Side
+
+- Página de login customizada
+- Erros
+- Client e Server Side (server components)
+
+#### 06. Login com Github
+
+- Criando um app OAuth no Github
+- Adicionando o provider Github
+- Configurando o form e action
+
+#### 07. Login com Magic Link (email)
+
+- Adicionando um provedor de email
+- Configurando o formulário e action
+
+#### 08. Usando dados da Sessão
+
+- Exibindo dados do usuário
+- Protegendo rotas
+
+#### 09. Callbacks para adicionarmos mais dados na sessão
+
+- Adicionando dados adicionais do GitHub na sessão

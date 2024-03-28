@@ -63,7 +63,7 @@ import { User } from 'next-auth';
 import Link from 'next/link';
 
 export default async function Dashboard() {
-  let user: User | undefined = undefined;
+  let user = undefined;
   const session = await auth();
   if (session) {
     user = session.user;
