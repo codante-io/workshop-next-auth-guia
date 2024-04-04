@@ -15,4 +15,4 @@ A página inicial da aplicação é essa:
 
 ### Link do Repositório
 
-O repositório do exemplo da aula pode ser encontrado neste link:
+O repositório do exemplo da aula pode ser encontrado neste link: [https://github.com/robertotcestari/workshop-codante-next-auth](https://github.com/robertotcestari/workshop-codante-next-auth)
